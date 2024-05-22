@@ -1,0 +1,192 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px 100px;
+    background-color: #faf5de;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar {
+    /* Display in a row */
+    display: flex;
+    /* Makes it show up in the center of the container */
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 50px;
+    background-color: #ABCDEF;
+    /* width, line type, colour */
+    border-bottom: 2px solid gray;
+    box-shadow: 3px 3px 10px gray;
+    z-index: 2;
+}
+
+.titles {
+    flex: 1 0 20%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.mainheading {
+    font-size: 50px;
+    margin-top: 75px;
+    display: flex;
+    justify-content: center;
+}
+
+.circles {
+    position: relative;
+    height: 300px;
+    width: 315px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.circle {
+    /* Set to 50% for circle */
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    border: 3px solid gray;
+    object-fit: cover;
+}
+
+.circle-left {
+    margin-right: 30px;
+}
+
+.circle-right {
+    margin-left: 30px;
+}
+
+/* circles for the container */
+.circle1 {
+    border-radius: 50%;
+    height: 140px;
+    width: 140px;
+    border: 3px solid gray;
+    object-fit: cover;
+    position: absolute;
+    left: 22%;
+}
+
+.circle2 {
+    border-radius: 50%;
+    height: 140px;
+    width: 140px;
+    border: 3px solid gray;
+    object-fit: cover;
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+}
+
+.circle3 {
+    border-radius: 50%;
+    height: 140px;
+    width: 140px;
+    border: 3px solid gray;
+    object-fit: cover;
+    position: absolute;
+    bottom: 20px;
+    right: 0px;
+}
+
+.circle:hover {
+    opacity: 80%;
+}
+
+.hobby {
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.hobby-description {
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: 3px 3px 10px gray;
+    color: #568bba;
+    height: 300px;
+    flex: 1;
+    width: calc(100vw - 350px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 70px;
+}
+
+.kobspage {
+    flex: 1 0 35%;
+    margin-left: 35px;
+}
+
+.title:hover {
+    color: gray;
+    cursor: pointer;
+}
+
+.heading {
+    /* Set to 50% for circle */
+    border-radius: 30px;
+    height: 75px;
+    width: calc(100vw-60px);
+    margin: 30px 30px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social {
+    /* Set to 50% for circle */
+    height: 50px;
+    width: 50px;
+    margin: 0px 20px;
+}
+
+.instagram-icon {
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-image: url(/assets/instagram.svg);
+}
+
+.linkedin-icon {
+    margin-top: 5px;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-image: url(/assets/linkedin-icon.png);
+}
+
+.discord-icon {
+    margin-top: 23px;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-image: url(/assets/discord-icon.png);
+}
+
+.github-icon {
+    margin-top: 12px;
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-image: url(/assets/github-icon.png);
+}
+
