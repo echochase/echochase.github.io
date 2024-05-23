@@ -57,7 +57,7 @@
 }
 
 .hobby {
-    height: 350px;
+    height: 400px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -67,12 +67,12 @@
     border-radius: 7px;
     background-color: gray;
     box-shadow: 3px 3px 10px gray;
-    height: 300px;
+    height: 350px;
     flex: 1;
     width: calc(100vw - 350px);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0px 70px;
+    padding: 0px 30px;
 }
