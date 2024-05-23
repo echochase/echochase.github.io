@@ -7,6 +7,7 @@ body {
 p {
     text-align: center;
     color: #EEEEEE;
+    font-size: 20px;
 }
 
 h2 {
@@ -36,7 +37,7 @@ a {
 }
 
 .titles {
-    flex: 1 0 20%;
+    flex: 1 0 35%;
     display: flex;
     justify-content: space-around;
     font-size: 25px;
@@ -51,7 +52,7 @@ a {
 
 .kobspage {
     flex: 1 0 35%;
-    margin-left: 35px;
+    margin-left: 70px;
     font-size: 25px;
 }
 
