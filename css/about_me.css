@@ -1,0 +1,78 @@
+.circles {
+    position: relative;
+    height: 300px;
+    width: 315px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.circle {
+    /* Set to 50% for circle */
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;   
+    box-shadow: 10px 10px 10px #222222;
+    object-fit: cover;
+}
+
+.circle-left {
+    margin-right: 30px;
+}
+
+.circle-right {
+    margin-left: 30px;
+}
+
+/* circles for the container */
+.circle1 {
+    border-radius: 50%;
+    height: 140px;
+    width: 140px;   
+    box-shadow: 10px 10px 10px #222222;
+    object-fit: cover;
+    position: absolute;
+    left: 22%;
+}
+
+.circle2 {
+    border-radius: 50%;
+    height: 140px;
+    width: 140px;   
+    box-shadow: 10px 10px 10px #222222;
+    object-fit: cover;
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+}
+
+.circle3 {
+    border-radius: 50%;
+    height: 140px;
+    width: 140px;   
+    box-shadow: 10px 10px 10px #222222;
+    object-fit: cover;
+    position: absolute;
+    bottom: 20px;
+    right: 0px;
+}
+
+.hobby {
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.hobby-description {
+    border-radius: 7px;
+    background-color: gray;
+    box-shadow: 3px 3px 10px gray;
+    height: 300px;
+    flex: 1;
+    width: calc(100vw - 350px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 70px;
+}

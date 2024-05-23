@@ -1,0 +1,43 @@
+
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    background-color: #EEEEEE;
+    border: 3px solid black;
+}
+
+.social {
+    /* Set to 50% for circle */
+    height: 50px;
+    width: 50px;
+    margin: 0px 20px;
+}
+
+.instagram-icon {
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-image: url(/assets/instagram.svg);
+}
+
+.linkedin-icon {
+    margin-top: 5px;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-image: url(/assets/linkedin-icon.png);
+}
+
+.discord-icon {
+    margin-top: 23px;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-image: url(/assets/discord-icon.png);
+}
+
+.github-icon {
+    margin-top: 12px;
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-image: url(/assets/github-icon.png);
+}

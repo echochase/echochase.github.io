@@ -3,7 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Kob's Page</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/socials.css">
+    <link rel="stylesheet" href="css/about_me.css">
+    <link rel="stylesheet" href="css/mp.css">
+</head>
 </head>
 <body>
     <div class="navbar">
@@ -15,8 +19,8 @@
             <a class="title" href="#experience">Experience</a>
         </div>
     </div>
-    <div class="mainheading" id="mainheading">
-        Kob's Site
+    <div class="mainheading" style="color: white" id="mainheading">
+        Kob's Page
     </div>
     <p>
       Hi everyone, I'm Kobe! Welcome to my page.
@@ -37,6 +41,10 @@
                 and COMP2041 (Software Construction); I highly recommend taking
                 both as soon as you have the prerequisites. Cybersecurity might
                 be an acquired taste, but 2041 is definitely for everyone.
+            </p>
+            <p>
+                After I graduate, I'd like to work as a security analyst
+                (pen tester) or a full stack developer.
             </p>
         </div>
     </div>
@@ -62,7 +70,11 @@
         </div>
     </div>
     <div class="hobby">
-        <img class="circle circle-left" src="assets/IMG_4825.jpg" alt="friends" />
+        <div class="circles">
+            <img class="circle1" src="assets/altarts.jpg" alt="piano" />
+            <img class="circle2" src="assets/pkmn_cards.jpg" alt="piano" />
+            <img class="circle3" src="assets/SSJKM.jpg" alt="piano" />
+        </div>
         <div class="hobby-description">
             <h2>Pokémon Cards</h2>
             <p>
@@ -73,7 +85,7 @@
             <p>
                 I also like to make my own custom cards for my friends!
                 I print out the card I want and stick it on top
-                of a Pokémon card before laminating it. I've racked up
+                of a Pokémon card before laminating it. I've made
                 a whole deck full and I'm not sure it's a flex to be so good at it...
             </p>
         </div>
@@ -84,29 +96,97 @@
             <p>
                 Occasionally I like to mess around on the piano.
                 I used to do grades when I was younger, but after
-                getting my AMusA diploma I was
+                getting my AMusA Diploma I was
                 <b><i><u>exhausted</u></i></b>.
-                Nowadays I just play songs I like and for as long or
-                short a time as I want.
+            </p>
+            <p>
+                I had a phase where I watched a lot of TwoSet Violin,
+                and my favourite composer is Bach. That being said,
+                I absolutely sucked at music theory and barely managed to scrape a pass.
+            </p>
+            <p>
+                Nowadays I just play songs I like for as long as I want.
             </p>
         </div>
-        <img class="circle circle-right" src="assets/friends.jpg" alt="piano" />
-    </div>
-    <div class="hobby">
-        <div class="circles">
-            <img class="circle1" src="assets/SSJKM.png" alt="piano" />
-            <img class="circle2" src="assets/SSJKM.png" alt="piano" />
-            <img class="circle3" src="assets/SSJKM.png" alt="piano" />
-        </div>
-        
-        <div class="hobby-description"></div>
+        <img class="circle circle-right" src="assets/piano.jpg" alt="piano" />
     </div>
     <div class="heading" id="mp">
         Machiavellian Pursuits
-
+    </div>
+    <div class="mp-container">
+        <div class="project-description" style="background-color: #ccaa87;">
+            <p class="black-font">
+                Just a passion project I do on the side.
+            </p>
+            <p class="black-font">
+                Though still in progress, my proudest creation is
+                the Machiavellian Pursuits game, where players battle
+                for victory through manipulation and unstable alliances.
+                Having previously created the game myself, I first
+                printed this set of cards out to play with a group of
+                friends in person, but we quickly realized that it made
+                for an ambitious but fulfilling programming project. After
+                we clarified the rules and beta-tested the game, we took
+                to programming and decided on using ReactJS for the
+                frontend, and TypeScript for the backend.
+            </p>
+            <p class="black-font">
+                We're a team of five friends, 3 of which (including myself) are
+                developers and 2 are artists.  This endeavour has taught me to think like a leader and project
+                manager as well as a developer; as the creator and being most
+                familiar with the details of the game, I am responsible for
+                directing the creative process as well as specifying the requirements
+                on the technical side. As of right now, the game is incomplete.
+                However, we have completed implementation of rooms (sessions) using
+                Socket.io, made significant headway on the graphics and backend, and have
+                finished documentation (including rules and gameplay guidelines) and plans
+                for user interface and game logic. When the game is finished, we will deploy
+                it publicly on a web server where it can be played and enjoyed from anywhere.
+            </p>
+        </div>
+        <div class="mp-images" style="background-color: black;">
+            <img src="/assets/mp_home.png" style="width: 400px; height: 280px;" />
+            <img src="/assets/mp_join.png" style="width: 400px; height: 304px;" />
+            <img src="/assets/mp_ui.png" style="width: 400px; height: 224px;" />
+        </div>
     </div>
     <div class="heading" id="intrusion">
         Intrusion
+    </div>
+    <div class="intrusion-container">
+        <div class="intrusion-images" style="background-color: #555555;" >
+            <img src="/assets/intrusion-home.png" style="width: 450px; height: 252px;" />
+            <img src="/assets/intrusion-github.png" style="width: 450px; height: 219px;" />
+            <img src="/assets/intrusion-gameplay.png" style="width: 450px; height: 260px;" />
+        </div>
+        <div class="project-description" style="background-color: lightblue;">
+            <p class="black-font">
+                This is the personal project I am currently working on with another
+                group of friends. Intrusion is a card game that models different cyber-attack
+                and defense scenarios on a vulnerable system. I created this game at
+                the end of last year, and its purpose is to introduce the public to
+                the world of cyber security, regardless of their background (or lack thereof)
+                in computer science.
+            </p>
+            <p class="black-font">
+                We're developing this project with a slightly bigger team of 6
+                developers and 3 artists, with myself and my friend Jerry working
+                on backend, and my friends Shaam, Sohum and Manav working on the
+                frontend. Finally, my friend James is doing the heavy lifting with
+                figuring out the server logic, i.e. how the %$&@ we're going to
+                integrate Java Socketio into our codebase (seriously, the socketio
+                implementations need better JavaDoc, and we don't want to use the
+                Java Socket Library unless we absolutely have to).
+            </p>
+            <p class="black-font">
+                Right now we have about all of the backend game logic done, and
+                the frontend is making significant headway. The art is also halfway
+                done, since this project is thankfully less art-heavy than Machiavellian
+                Pursuits. We're thinking to deploy this project ASAP, though it depends
+                how busy everyone is once term starts. Either way, we already have a lot
+                to show for it!
+            </p>
+        </div>
     </div>
     <div class="heading" id="experience">
         Experience
