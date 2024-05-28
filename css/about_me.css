@@ -10,7 +10,7 @@
     /* Set to 50% for circle */
     border-radius: 50%;
     height: 300px;
-    width: 300px;   
+    width: 300px;
     box-shadow: 10px 10px 10px #222222;
     object-fit: cover;
 }
