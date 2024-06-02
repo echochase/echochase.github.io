@@ -8,15 +8,33 @@ p {
     text-align: center;
     color: #EEEEEE;
     font-size: 20px;
+    margin-top: 0;
+    overflow: auto;
 }
 
 h2 {
     color: #EEEEEE;
+    font-size: 30px;
 }
 
 a {
     text-decoration: none;
     color: #EEEEEE;
+}
+
+.button {
+    border-radius: 15px;
+    border: 2px solid black;
+    background-color: rgb(184, 62, 62);
+    width: 275px;
+    height: 35px;
+    font-size: 27px;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: rgb(124, 89, 89);
+    cursor: pointer;
 }
 
 .navbar {
@@ -46,6 +64,7 @@ a {
 .mainheading {
     font-size: 50px;
     margin-top: 125px;
+    margin-bottom: 20px;
     display: flex;
     justify-content: center;
 }
@@ -74,4 +93,8 @@ a {
     align-items: center;
     font-size: 50px;
     color: #EEEEEE;
+}
+
+.big-text {
+    font-size: 25px;
 }

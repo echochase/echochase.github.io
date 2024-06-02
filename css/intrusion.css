@@ -1,0 +1,10 @@
+.expandable-box {
+    min-height: 50px;  /* minimum height */
+    padding: 30px;
+    border-radius: 30px;
+    border: 1px solid black;
+    background-color: gray;
+    box-sizing: border-box;  /* includes padding and border in the element's total width and height */
+    overflow: hidden;  /* hide overflow for aesthetic */
+    word-wrap: break-word;  /* breaks long words */
+}
