@@ -57,8 +57,17 @@ a {
         justify-content: center;
         text-align: center;
         align-items: center;
-        font-size: 50px;
+        font-size: 35px;
         color: #EEEEEE;
+    }
+    
+    .mainheading {
+        font-size: 35px;
+        margin-top: 125px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
     }
 }
 
@@ -84,15 +93,15 @@ a {
         font-size: 50px;
         color: #EEEEEE;
     }
-}
 
-.mainheading {
-    font-size: 50px;
-    margin-top: 125px;
-    margin-bottom: 20px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
+    .mainheading {
+        font-size: 50px;
+        margin-top: 125px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
 }
 
 .navbar {

@@ -46,7 +46,8 @@
     }
     
     .mp-images {
-        height: 750px;
+        height: calc(110vw);
+        max-height: 700px;
         width: 100%;
         max-width: 375px;
         display: flex;
@@ -57,7 +58,8 @@
     }
 
     .intrusion-images {
-        height: 650px;
+        height: calc(100vw);
+        max-height: 700px;
         width: 100%;
         max-width: 400px;
         display: flex;
@@ -68,12 +70,15 @@
     }
 
     .intrusion-image {
-        width: 375px;
+        width: calc(100vw - 220px);
+        max-width: 275px;
         height: auto;
     }
 
     .mp-image {
-        width: 350px;
+        width: calc(100vw - 220px);
+        max-width: 350px;
+        max-height: 265px;
         height: auto;
     }
 }

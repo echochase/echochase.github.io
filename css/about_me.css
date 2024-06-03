@@ -2,8 +2,8 @@
     .circle {
         /* Set to 50% for circle */
         border-radius: 50%;
-        height: 200px;
-        width: 200px;
+        height: 170px;
+        width: 170px;
         box-shadow: 10px 10px 10px #222222;
         object-fit: cover;
     }
@@ -48,7 +48,7 @@
     }
 
     .hobby {
-        height: 400px;
+        width: 400px;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
