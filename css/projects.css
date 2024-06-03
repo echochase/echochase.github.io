@@ -1,67 +1,160 @@
-.mp-container {
-    border-radius: 30px;
-    border: 3px solid black;
-    height: 1000px;
-    width: 100%;
-    background-color: #633200;
-    background-image: url(/assets/mp_logo.png);
-    background-size: 1000px 1000px;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    opacity: 80%;
+@media only screen and (max-width: 700px) {
+    .mp-container {
+        border-radius: 30px;
+        border: 3px solid black;
+        height: 1700px;
+        width: 100%;
+        background-color: #633200;
+        background-image: url(/assets/mp_logo.png);
+        background-size: 1000px 1000px;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        opacity: 80%;
+        margin: 100px 0;
+    }
+    
+    .intrusion-container {
+        border-radius: 30px;
+        border: 3px solid black;
+        height: 2000px;
+        width: 100%;
+        background-image: url(/assets/intrusion-bg.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .project-description {
+        padding: 50px 50px;
+        font-size: 23px;
+        border-radius: 30px;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 300px;
+        height: 500px;
+    }
+    
+    .mp-images {
+        height: 750px;
+        width: 100%;
+        max-width: 375px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: black;
+    }
+
+    .intrusion-images {
+        height: 650px;
+        width: 100%;
+        max-width: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #555555;
+    }
+
+    .intrusion-image {
+        width: 375px;
+        height: auto;
+    }
+
+    .mp-image {
+        width: 350px;
+        height: auto;
+    }
 }
+@media only screen and (min-width: 701px) {
+    .mp-container {
+        border-radius: 30px;
+        border: 3px solid black;
+        height: 1000px;
+        width: 100%;
+        background-color: #633200;
+        background-image: url(/assets/mp_logo.png);
+        background-size: 1000px 1000px;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        opacity: 80%;
+    }
+    
+    .intrusion-container {
+        border-radius: 30px;
+        border: 3px solid black;
+        height: 900px;
+        width: 100%;
+        background-image: url(/assets/intrusion-bg.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .project-description {
+        padding: 50px 50px;
+        font-size: 23px;
+        border-radius: 30px;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 600px;
+        height: 700px;
+    }
+        
+    .mp-images {
+        height: 875px;
+        width: 100%;
+        max-width: 425px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: black;
+    }
 
-.intrusion-container {
-    border-radius: 30px;
-    border: 3px solid black;
-    height: 900px;
-    width: 100%;
-    background-image: url(/assets/intrusion-bg.png);
-    background-size: 100% 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
+    .intrusion-images {
+        height: 800px;
+        width: 100%;
+        max-width: 475px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #555555;
+    }
 
+    .intrusion-image {
+        width: 450px;
+        height: auto;
+    }
 
-.mp-images {
-    height: 875px;
-    width: 100%;
-    max-width: 425px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.intrusion-images {
-    height: 800px;
-    width: 100%;
-    max-width: 475px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.project-description {
-    padding: 50px 50px;
-    font-size: 23px;
-    border-radius: 30px;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 600px;
-    height: 700px;
+    .mp-image {
+        width: 400px;
+        height: auto;
+    }
 }
 
 .black-font {
     color: black;
+    text-overflow: auto;
 }
