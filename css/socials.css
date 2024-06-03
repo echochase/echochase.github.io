@@ -1,43 +1,97 @@
+@media only screen and (max-width: 700px) {    
+    .socials {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50px;
+        background-color: #EEEEEE;
+        border: 3px solid black;
+    }
 
-.socials {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50px;
-    background-color: #EEEEEE;
-    border: 3px solid black;
+    .social {
+        /* Set to 50% for circle */
+        height: 30px;
+        width: 30px;
+        margin: 0px 10px;
+    }
+
+    .instagram-icon {
+        background-size: 90%;
+        min-width: 30px;
+        min-height: 30px;
+        background-repeat: no-repeat;
+        background-image: url(/assets/instagram.svg);
+    }
+
+    .linkedin-icon {
+        margin-top: 5px;
+        min-width: 30px;
+        min-height: 30px;
+        background-size: 90%;
+        background-repeat: no-repeat;
+        background-image: url(/assets/linkedin-icon.png);
+    }
+
+    .discord-icon {
+        margin-top: 17px;
+        min-width: 30px;
+        min-height: 30px;
+        background-size: 90%;
+        background-repeat: no-repeat;
+        background-image: url(/assets/discord-icon.png);
+    }
+
+    .github-icon {
+        margin-top: 8px;
+        min-width: 30px;
+        min-height: 30px;
+        background-size: 110%;
+        background-repeat: no-repeat;
+        background-image: url(/assets/github-icon.png);
+    }
 }
 
-.social {
-    /* Set to 50% for circle */
-    height: 50px;
-    width: 50px;
-    margin: 0px 20px;
-}
-
-.instagram-icon {
-    background-size: 90%;
-    background-repeat: no-repeat;
-    background-image: url(/assets/instagram.svg);
-}
-
-.linkedin-icon {
-    margin-top: 5px;
-    background-size: 90%;
-    background-repeat: no-repeat;
-    background-image: url(/assets/linkedin-icon.png);
-}
-
-.discord-icon {
-    margin-top: 23px;
-    background-size: 90%;
-    background-repeat: no-repeat;
-    background-image: url(/assets/discord-icon.png);
-}
-
-.github-icon {
-    margin-top: 12px;
-    background-size: 110%;
-    background-repeat: no-repeat;
-    background-image: url(/assets/github-icon.png);
+@media only screen and (min-width: 701px) {
+    .socials {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50px;
+        background-color: #EEEEEE;
+        border: 3px solid black;
+    }
+    
+    .social {
+        /* Set to 50% for circle */
+        height: 50px;
+        width: 50px;
+        margin: 0px 20px;
+    }
+    
+    .instagram-icon {
+        background-size: 90%;
+        background-repeat: no-repeat;
+        background-image: url(/assets/instagram.svg);
+    }
+    
+    .linkedin-icon {
+        margin-top: 5px;
+        background-size: 90%;
+        background-repeat: no-repeat;
+        background-image: url(/assets/linkedin-icon.png);
+    }
+    
+    .discord-icon {
+        margin-top: 23px;
+        background-size: 90%;
+        background-repeat: no-repeat;
+        background-image: url(/assets/discord-icon.png);
+    }
+    
+    .github-icon {
+        margin-top: 12px;
+        background-size: 110%;
+        background-repeat: no-repeat;
+        background-image: url(/assets/github-icon.png);
+    }
 }
