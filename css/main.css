@@ -54,11 +54,22 @@ a {
     z-index: 2;
 }
 
-.titles {
-    flex: 1 0 35%;
-    display: flex;
-    justify-content: space-around;
-    font-size: 25px;
+@media only screen and (max-width: 600px) {
+    .titles {
+        flex: 1 1 55%;
+        display: flex;
+        justify-content: space-around;
+        font-size: 25px;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    .titles {
+        flex: 1 1 35%;
+        display: flex;
+        justify-content: space-around;
+        font-size: 25px;
+    }
 }
 
 .mainheading {

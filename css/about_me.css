@@ -1,18 +1,102 @@
-.circles {
-    position: relative;
-    height: 300px;
-    width: 315px;
-    margin-left: 10px;
-    margin-right: 20px;
+@media only screen and (max-width: 600px) {
+    .circle {
+        /* Set to 50% for circle */
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+        box-shadow: 10px 10px 10px #222222;
+        object-fit: cover;
+    }
+
+    .circles {
+        position: relative;
+        height: 300px;
+        width: 315px;
+        margin-left: 10px;
+        margin-right: 20px;
+    }
+    
+    .circle1 {
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;   
+        box-shadow: 10px 10px 10px #222222;
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+    }
+    
+    .circle2 {
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;   
+        box-shadow: 10px 10px 10px #222222;
+        object-fit: cover;
+        position: absolute;
+        bottom: 0;
+        top: 33.33%;
+    }
+    
+    .circle3 {
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;   
+        box-shadow: 10px 10px 10px #222222;
+        object-fit: cover;
+        position: absolute;
+        bottom: 0;
+    }
 }
 
-.circle {
-    /* Set to 50% for circle */
-    border-radius: 50%;
-    height: 300px;
-    width: 300px;
-    box-shadow: 10px 10px 10px #222222;
-    object-fit: cover;
+@media only screen and (min-width: 601px) {
+    .circle {
+        /* Set to 50% for circle */
+        border-radius: 50%;
+        height: 300px;
+        width: 300px;
+        box-shadow: 10px 10px 10px #222222;
+        object-fit: cover;
+    }
+
+    .circles {
+        position: relative;
+        height: 300px;
+        width: 315px;
+        margin-left: 10px;
+        margin-right: 20px;
+    }
+
+    .circle1 {
+        border-radius: 50%;
+        height: 140px;
+        width: 140px;   
+        box-shadow: 10px 10px 10px #222222;
+        object-fit: cover;
+        position: absolute;
+        left: 22%;
+    }
+    
+    .circle2 {
+        border-radius: 50%;
+        height: 140px;
+        width: 140px;   
+        box-shadow: 10px 10px 10px #222222;
+        object-fit: cover;
+        position: absolute;
+        bottom: 0;
+        left: 10px;
+    }
+    
+    .circle3 {
+        border-radius: 50%;
+        height: 140px;
+        width: 140px;   
+        box-shadow: 10px 10px 10px #222222;
+        object-fit: cover;
+        position: absolute;
+        bottom: 20px;
+        right: 0px;
+    }
 }
 
 .circle-left {
@@ -21,39 +105,6 @@
 
 .circle-right {
     margin-left: 30px;
-}
-
-/* circles for the container */
-.circle1 {
-    border-radius: 50%;
-    height: 140px;
-    width: 140px;   
-    box-shadow: 10px 10px 10px #222222;
-    object-fit: cover;
-    position: absolute;
-    left: 22%;
-}
-
-.circle2 {
-    border-radius: 50%;
-    height: 140px;
-    width: 140px;   
-    box-shadow: 10px 10px 10px #222222;
-    object-fit: cover;
-    position: absolute;
-    bottom: 0;
-    left: 10px;
-}
-
-.circle3 {
-    border-radius: 50%;
-    height: 140px;
-    width: 140px;   
-    box-shadow: 10px 10px 10px #222222;
-    object-fit: cover;
-    position: absolute;
-    bottom: 20px;
-    right: 0px;
 }
 
 .hobby {
