@@ -3,7 +3,6 @@
         border-radius: 30px;
         border: 3px solid black;
         height: 1700px;
-        width: calc(100vw - 60px);
         margin: 30px 0;
         background-color: #633200;
         background-image: url(/assets/mp_logo.png);
@@ -21,7 +20,6 @@
         border-radius: 30px;
         border: 3px solid black;
         height: 2000px;
-        width: calc(100vw - 60px);
         margin: 30px 0;
         background-image: url(/assets/intrusion-bg.png);
         background-size: cover;
@@ -48,7 +46,7 @@
     }
     
     .mp-images {
-        height: calc(100vw * 100vw);
+        height: calc(100vw * 50vw);
         width: calc(100vw - 60px);
         margin: 30px 0;
         display: flex;
@@ -59,7 +57,7 @@
     }
 
     .intrusion-images {
-        height: calc(100vw);
+        height: calc(100vw * 50vw);
         width: calc(100vw - 60px);
         margin: 30px 0;
         display: flex;
@@ -121,6 +119,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        overflow: auto;
         width: 600px;
         height: 700px;
     }
