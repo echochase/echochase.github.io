@@ -24,7 +24,7 @@ a {
     cursor: pointer;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1000px) {
     body {
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         background-color: #31363F;
@@ -68,9 +68,26 @@ a {
     .big-text {
         font-size: 20px;
     }
+    
+    .navbar {
+        /* Display in a row */
+        display: flex;
+        /* Makes it show up in the center of the container */
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 70px;
+        background-color: #76ABAE;
+        /* width, line type, colour */
+        border-bottom: 2px solid black;
+        box-shadow: 5px 5px 12px black;
+        z-index: 2;
+    }
 }
 
-@media only screen and (min-width: 701px) {
+@media only screen and (min-width: 1001px) {
     body {
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         margin: 0px 100px;
@@ -114,26 +131,26 @@ a {
     }
 
     
+    .navbar {
+        /* Display in a row */
+        display: flex;
+        /* Makes it show up in the center of the container */
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100px;
+        background-color: #76ABAE;
+        /* width, line type, colour */
+        border-bottom: 2px solid black;
+        box-shadow: 5px 5px 12px black;
+        z-index: 2;
+    }
+    
     .big-text {
         font-size: 25px;
     }
-}
-
-.navbar {
-    /* Display in a row */
-    display: flex;
-    /* Makes it show up in the center of the container */
-    align-items: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100px;
-    background-color: #76ABAE;
-    /* width, line type, colour */
-    border-bottom: 2px solid black;
-    box-shadow: 5px 5px 12px black;
-    z-index: 2;
 }
 
 .mainheading {

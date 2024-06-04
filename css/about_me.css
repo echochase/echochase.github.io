@@ -1,4 +1,4 @@
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1000px) {
     .circle {
         /* Set to 50% for circle */
         border-radius: 50%;
@@ -15,32 +15,32 @@
         margin-left: 10px;
         margin-right: 20px;
     }
-    
+
     .circle1 {
         border-radius: 50%;
         height: 100px;
-        width: 100px;   
+        width: 100px;
         box-shadow: 10px 10px 10px #222222;
         object-fit: cover;
         position: absolute;
         top: 0;
     }
-    
+
     .circle2 {
         border-radius: 50%;
         height: 100px;
-        width: 100px;   
+        width: 100px;
         box-shadow: 10px 10px 10px #222222;
         object-fit: cover;
         position: absolute;
         bottom: 0;
         top: 33.33%;
     }
-    
+
     .circle3 {
         border-radius: 50%;
         height: 100px;
-        width: 100px;   
+        width: 100px;
         box-shadow: 10px 10px 10px #222222;
         object-fit: cover;
         position: absolute;
@@ -53,7 +53,7 @@
         align-items: center;
         justify-content: space-evenly;
     }
-    
+
     .hobby-description {
         border-radius: 7px;
         background-color: gray;
@@ -70,7 +70,7 @@
     }
 }
 
-@media only screen and (min-width: 701px) {
+@media only screen and (min-width: 1001px) {
     .circle {
         /* Set to 50% for circle */
         border-radius: 50%;
@@ -91,28 +91,28 @@
     .circle1 {
         border-radius: 50%;
         height: 140px;
-        width: 140px;   
+        width: 140px;
         box-shadow: 10px 10px 10px #222222;
         object-fit: cover;
         position: absolute;
         left: 22%;
     }
-    
+
     .circle2 {
         border-radius: 50%;
         height: 140px;
-        width: 140px;   
+        width: 140px;
         box-shadow: 10px 10px 10px #222222;
         object-fit: cover;
         position: absolute;
         bottom: 0;
         left: 10px;
     }
-    
+
     .circle3 {
         border-radius: 50%;
         height: 140px;
-        width: 140px;   
+        width: 140px;
         box-shadow: 10px 10px 10px #222222;
         object-fit: cover;
         position: absolute;
@@ -126,7 +126,7 @@
         align-items: center;
         justify-content: space-evenly;
     }
-    
+
     .hobby-description {
         border-radius: 7px;
         background-color: gray;

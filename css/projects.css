@@ -80,6 +80,7 @@
         height: auto;
     }
 }
+
 @media only screen and (min-width: 701px) {
     .mp-container {
         border-radius: 30px;

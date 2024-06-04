@@ -8,5 +8,36 @@
     box-sizing: border-box;  /* includes padding and border in the element's total width and height */
     overflow: hidden;  /* hide overflow for aesthetic */
     word-wrap: break-word;  /* breaks long words */
-    align-items: center;
 }
+
+.card-holder {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 1000px) {
+    .card {
+        width: 15%;
+        border: 2px solid transparent; /* Ensure a transparent border */
+        border-radius: 5px;
+        box-shadow: 0 0 10px 5px gold; /* Define the box shadow */
+    }
+
+}
+
+@media only screen and (min-width: 1001px) {
+    .card {
+        width: 17%;
+        border: 2px solid transparent; /* Ensure a transparent border */
+        border-radius: 12px;
+        box-shadow: 0 0 10px 5px gold; /* Define the box shadow */
+    }
+
+}
+
+.card:hover {
+    box-shadow: 0 0 10px 5px #89cff0; /* Define the box shadow */
+}
+
