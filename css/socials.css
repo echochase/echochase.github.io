@@ -34,7 +34,7 @@
     }
 
     .discord-icon {
-        margin-top: 17px;
+        margin-top: 16px;
         min-width: 30px;
         min-height: 30px;
         background-size: 90%;
@@ -43,7 +43,7 @@
     }
 
     .github-icon {
-        margin-top: 8px;
+        margin-top: 7px;
         min-width: 30px;
         min-height: 30px;
         background-size: 110%;
@@ -90,7 +90,7 @@
     }
     
     .github-icon {
-        margin-top: 12px;
+        margin-top: 11.5px;
         background-size: 110%;
         background-repeat: no-repeat;
         background-image: url(/assets/github-icon.png);
