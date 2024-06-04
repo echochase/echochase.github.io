@@ -96,7 +96,7 @@ a {
     }
     
     .kobspage { 
-        flex: 1 0 5%;
+        flex: 1 0 30%;
         margin-left: 70px;
         font-size: 25px;
     }
