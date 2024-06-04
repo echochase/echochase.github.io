@@ -10,21 +10,22 @@
     word-wrap: break-word;  /* breaks long words */
 }
 
-.card-holder {
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-around;
-}
-
 @media only screen and (max-width: 1000px) {
     .card {
-        width: 15%;
+        margin: 20px 0;
+        width: 39%;
         border: 2px solid transparent; /* Ensure a transparent border */
         border-radius: 5px;
         box-shadow: 0 0 10px 5px gold; /* Define the box shadow */
     }
-
+    
+    .card-holder {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
 }
 
 @media only screen and (min-width: 1001px) {
@@ -34,7 +35,13 @@
         border-radius: 12px;
         box-shadow: 0 0 10px 5px gold; /* Define the box shadow */
     }
-
+    
+    .card-holder {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+    }
 }
 
 .card:hover {
