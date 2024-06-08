@@ -1,0 +1,33 @@
+
+
+.skill-tiles {
+    margin: 50px 35px 25px 35px;
+    width: calc(100% - 70px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.skill-tile {
+    display: flex;
+    border-radius: 50px;
+    height: 500px;
+    width: 500px;
+    margin: 20px;
+    background-color: gray;
+    border: 5px solid black;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-circle {
+    height: 350px;
+    width: 350px;
+    background-image: url(/assets/friends.jpg);
+    background-size: cover;
+    margin-bottom: 20px;
+    border-radius: 25%;
+    border: 3px solid black;
+}

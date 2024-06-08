@@ -16,6 +16,14 @@
         margin: 0px 10px;
     }
 
+    .email-icon {
+        margin-top: 12px;
+        margin-right: 12px;
+        background-size: 105%;
+        background-repeat: no-repeat;
+        background-image: url(/assets/mail-icon.png);
+    }
+
     .instagram-icon {
         background-size: 90%;
         min-width: 30px;
@@ -60,38 +68,47 @@
         border-radius: 50px;
         background-color: #EEEEEE;
         border: 3px solid black;
+        margin: 30px 0;
     }
     
     .social {
         /* Set to 50% for circle */
-        height: 50px;
-        width: 50px;
+        height: 60px;
+        width: 70px;
         margin: 0px 20px;
     }
     
+    .email-icon {
+        margin-top: 8px;
+        margin-right: 35px;
+        background-size: 105%;
+        background-repeat: no-repeat;
+        background-image: url(/assets/mail-icon.png);
+    }
+
     .instagram-icon {
-        background-size: 90%;
+        background-size: 70%;
         background-repeat: no-repeat;
         background-image: url(/assets/instagram.svg);
     }
     
     .linkedin-icon {
         margin-top: 5px;
-        background-size: 90%;
+        background-size: 70%;
         background-repeat: no-repeat;
         background-image: url(/assets/linkedin-icon.png);
     }
     
     .discord-icon {
         margin-top: 23px;
-        background-size: 90%;
+        background-size: 70%;
         background-repeat: no-repeat;
         background-image: url(/assets/discord-icon.png);
     }
     
     .github-icon {
-        margin-top: 11.5px;
-        background-size: 110%;
+        margin-top: 8px;
+        background-size: 90%;
         background-repeat: no-repeat;
         background-image: url(/assets/github-icon.png);
     }

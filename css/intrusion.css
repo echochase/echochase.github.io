@@ -14,9 +14,9 @@
     .card {
         margin: 20px 0;
         width: 39%;
-        border: 2px solid transparent; /* Ensure a transparent border */
-        border-radius: 5px;
-        box-shadow: 0 0 10px 5px gold; /* Define the box shadow */
+        border: 2px solid transparent;
+        border-radius: 12px;
+        box-shadow: 0 0 10px 5px gold;
     }
     
     .card-holder {
@@ -31,9 +31,9 @@
 @media only screen and (min-width: 1001px) {
     .card {
         width: 17%;
-        border: 2px solid transparent; /* Ensure a transparent border */
+        border: 2px solid transparent;
         border-radius: 12px;
-        box-shadow: 0 0 10px 5px gold; /* Define the box shadow */
+        box-shadow: 0 0 10px 5px gold;
     }
     
     .card-holder {
@@ -45,6 +45,6 @@
 }
 
 .card:hover {
-    box-shadow: 0 0 10px 5px #89cff0; /* Define the box shadow */
+    box-shadow: 0 0 10px 5px #89cff0;
 }
 
