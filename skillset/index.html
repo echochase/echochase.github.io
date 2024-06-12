@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/css/skillset.css">
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/bubble.css">
+    <link rel="stylesheet" href="/css/description.css">
 </head>
 <body>
     <div class="navbar">
@@ -22,9 +23,24 @@
     <h2 class="mainheading">
         Skill Set
     </h2>
-    <div class="bubbles" id="bubbles">
-
+    <p class="big-text">
+        Here's where I advertise myself. Click the bubbles for more info about the specific skill!
+        <br>
+        Reload the page to rearrange the bubbles.
+    </p>
+    <!-- <div class="description-container">
+        <div class="description">
+            <div class="close-button">x</div>
+        </div>
+    </div> -->
+    <div class="bubbles" id="bubbles"></div>
+    <div class="socials">
+        <a class="social email-icon" href="mailto:wzsk2023@gmail.com" id="copyLink" onclick="copyToClipboard('wzsk2023@gmail.com')"></a>
+        <a class="social instagram-icon" href="https://instagram.com/kobeshenn"></a>
+        <a class="social linkedin-icon" href="https://www.linkedin.com/in/weizhen-shen-a988a0250/"></a>
+        <a class="social discord-icon" href="https://www.google.com/search?q=lol+pranked"></a>
+        <a class="social github-icon" href="https://github.com/echochase"></a>
     </div>
     <script src="/scripts/bubbles.js"></script>
-    <script src="/scripts/background-bubbles.js"></script>
+    <script src="/scripts/copy.js"></script>
 </body>

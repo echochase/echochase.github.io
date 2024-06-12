@@ -1,11 +1,3 @@
-document.addEventListener('DOMContentLoaded', function() {
-    const copyLink = document.getElementById('copyLink');
-    copyLink.addEventListener('click', function(event) {
-        event.preventDefault(); // Prevent the default anchor behavior
-        copyToClipboard('wzsk2023@gmail.com');
-    });
-});
-
 function copyToClipboard(text) {
     if (navigator.clipboard) {
         navigator.clipboard.writeText(text).then(function() {

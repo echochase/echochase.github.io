@@ -1,6 +1,6 @@
 
 .bubbles {
-	margin-top: 100px;
+	margin-top: 70px;
 	position: relative;
 	height: 80vh;
 	width: calc(100vw - 200px);
@@ -8,18 +8,26 @@
 
 .bubble {
 	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	position: absolute;
 	animation: float 4.5s ease-in-out infinite;
 	background: radial-gradient(
 		circle at 65% 35%,
-		white 5px,
-		aqua 15%,
-		pink 50%,
-		aqua 100%
+		#ffe 5px,
+		white 15%,
+		white 50%,
+		white 100%
 	);
 	box-shadow: inset 0 -20px 30px #fff, inset 40px 0 46px #eaf5fc,
 	inset 58px 0px 60px #c2d8fe, inset -8px -30px 100px #fde9ea,
 	inset 0 20px 110px #fde9ea, 0 0 90px #fff;
+}
+
+.bubble:hover {
+	opacity: 80%;
+	cursor: pointer;
 }
 
 .background-bubble {
@@ -39,6 +47,68 @@
     100% {
         transform: translateY(0);
     }
+}
+
+.html-css {
+	background-image: url(/assets/html_css.png);
+	background-position: center;
+	display: block;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.c {
+	background-image: url(/assets/c.webp);
+	background-position: center;
+	display: block;
+	opacity: 80%;
+	background-size: cover;
+}
+
+.python {
+    background-image: url(/assets/python.png);
+    background-position: center;
+	display: block;
+	background-size: 100%;
+}
+
+.java {
+	background-image: url(/assets/java.png);
+    background-position: center;
+	display: block;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.js {
+	background-image: url(/assets/javascript.png);
+    background-position: center;
+	display: block;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.sql {
+	background-image: url(/assets/sql.png);
+    background-position: center;
+	display: block;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.hacker {
+	background-image: url(/assets/hacker.png);
+	background-position: center;
+	display: block;
+	background-size: 100%;
+}
+
+.other {
+	background-image: url(/assets/other.png);
+	background-position: center;
+	display: block;
+	background-size: 100%;
+	background-repeat: no-repeat;
 }
 
 @media (max-width: 500px) {
