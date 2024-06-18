@@ -1,6 +1,6 @@
 // Configuration
-const bubbleCount = 8;
-const icons = ['python', 'java', 'js', 'c', 'html-css', 'hacker', 'sql', 'other'];
+const bubbleCount = 7;
+const icons = ['python', 'java', 'js', 'c', 'html-css', 'hacker', 'sql'];
 const minSize = (window.innerWidth + window.innerHeight) / 15; // Minimum bubble size
 const maxSize = (window.innerWidth + window.innerHeight) / 8; // Maximum bubble size
 const spacingBuffer = 1; // Minimum space between bubbles
