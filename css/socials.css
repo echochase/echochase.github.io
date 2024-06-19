@@ -6,7 +6,13 @@
         border-radius: 50px;
         background-color: #EEEEEE;
         border: 3px solid black;
-        margin: 30px 0;
+        position: fixed;
+        margin-bottom: 10px;
+        width: calc(100vw - 10px);
+        bottom: 0px;
+        left: 50%; /* Position the left edge at the center of the viewport */
+        transform: translateX(-50%); /* Shift the element back by half its width to center it */
+        opacity: 90%;
     }
 
     .social {
@@ -58,6 +64,11 @@
         background-repeat: no-repeat;
         background-image: url(/assets/github-icon.png);
     }
+
+    
+    .barrier {
+        margin-bottom: 80px;
+    }
 }
 
 @media only screen and (min-width: 1001px) {
@@ -68,7 +79,13 @@
         border-radius: 50px;
         background-color: #EEEEEE;
         border: 3px solid black;
-        margin: 30px 0;
+        position: fixed;
+        margin-bottom: 10px;
+        width: calc(100vw - 100px);
+        bottom: 0px;
+        left: 50%; /* Position the left edge at the center of the viewport */
+        transform: translateX(-50%); /* Shift the element back by half its width to center it */
+        opacity: 90%;
     }
     
     .social {
@@ -111,5 +128,9 @@
         background-size: 90%;
         background-repeat: no-repeat;
         background-image: url(/assets/github-icon.png);
+    }
+
+    .barrier {
+        margin-bottom: 110px;
     }
 }
