@@ -75,12 +75,17 @@ async function openMenu(text) {
     const template = tempContainer.querySelector('template').content;
     // Clone the template content
     const menuClone = document.importNode(template, true);
+    document.addEventListener('keydown', function(event) {
+        if (event.key === 'Escape') {
+            closeMenu();
+        }
+    });
     document.body.appendChild(menuClone);
 }
 
 function closeMenu() {
     let menu = document.querySelector("#dc");
-    menu.remove();
+    if (menu) menu.remove();
 }
 
 // Initialize bubbles on page load
