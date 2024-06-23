@@ -172,3 +172,10 @@ a {
         font-size: 16px;
     }
 }
+
+iframe {
+    opacity: 100%;
+    width: 0px;
+    height: 0px;
+    display: none;
+}
