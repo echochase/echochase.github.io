@@ -1,4 +1,21 @@
 @media only screen and (max-width: 700px) {
+    .icpc-container {
+        border-radius: 30px;
+        border: 3px solid black;
+        height: 1500px;
+        margin: 30px 0;
+        background-color: #633200;
+        background-image: url(/assets/icpc-bg.png);
+        background-size: 1000px 1000px;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        opacity: 80%;
+    }
+    
     .mp-container {
         border-radius: 30px;
         border: 3px solid black;
@@ -79,6 +96,22 @@
 }
 
 @media only screen and (min-width: 701px) {
+    .icpc-container {
+        border-radius: 30px;
+        border: 3px solid black;
+        height: 1000px;
+        width: 100%;
+        background-color: #633200;
+        background-image: url(/assets/icpc.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        opacity: 80%;
+    }
+
     .mp-container {
         border-radius: 30px;
         border: 3px solid black;
