@@ -69,9 +69,7 @@ a {
 
     
     .navbar {
-        /* Display in a row */
         display: flex;
-        /* Makes it show up in the center of the container */
         align-items: center;
         position: fixed;
         top: 0;
@@ -112,7 +110,6 @@ a {
     }
 
     .titles {
-        flex: 1 1 70%;
         display: flex;
         justify-content: space-around;
         font-size: 20px;
@@ -135,7 +132,7 @@ a {
     .kobspage { 
         flex: 1 0 25%;
         font-size: 20px;
-        padding-right: 70px;
+        padding-right: 30px;
     }
 
     p {
@@ -151,9 +148,7 @@ a {
     }
     
     .navbar {
-        /* Display in a row */
         display: flex;
-        /* Makes it show up in the center of the container */
         align-items: center;
         position: fixed;
         top: 0;
@@ -161,21 +156,24 @@ a {
         width: 100%;
         height: 50px;
         background-color: #76ABAE;
-        /* width, line type, colour */
         border-bottom: 2px solid black;
         box-shadow: 5px 5px 12px black;
         z-index: 2;
     }
 
     .title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         text-align: center;
         font-size: 16px;
+        margin: 7px;
     }
 }
 
-iframe {
-    opacity: 100%;
-    width: 0px;
-    height: 0px;
-    display: none;
+.mini-apps {
+    width: 100%;
+    height: 550px;
+    border-radius: 10px;
+    border: 2px solid white;
 }
