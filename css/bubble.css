@@ -103,6 +103,14 @@
 	background-size: 100%;
 }
 
+.react {
+	background-image: url(/assets/react-logo.png);
+	background-position: center;
+	display: block;
+	background-size: 70%;
+	background-repeat: no-repeat;
+}
+
 .other {
 	background-image: url(/assets/other.png);
 	background-position: center;

@@ -1,16 +1,14 @@
 // Configuration
-const bubbleCount = 7;
-const icons = ['python', 'java', 'js', 'c', 'html-css', 'hacker', 'sql'];
+const bubbleCount = 8;
+const icons = ['python', 'java', 'js', 'c', 'html-css', 'hacker', 'sql', 'react'];
 const minSize = (window.innerWidth + window.innerHeight) / 15; // Minimum bubble size
 const maxSize = (window.innerWidth + window.innerHeight) / 8; // Maximum bubble size
 const spacingBuffer = 1; // Minimum space between bubbles
 
-// Helper function to generate a random number within a range
 function getRandom(min, max) {
     return Math.random() * (max - min) + min;
 }
 
-// Function to check if a new bubble overlaps with existing ones
 function isOverlapping(newBubble, bubbles) {
     for (let bubble of bubbles) {
         let dx = newBubble.x - bubble.x;
@@ -23,7 +21,6 @@ function isOverlapping(newBubble, bubbles) {
     return false;
 }
 
-// Generate and position bubbles
 function createBubbles() {
     const bubbles = [];
     const container = document.getElementById('bubbles');
@@ -50,7 +47,6 @@ function createBubbles() {
             bubble.style.top = `${y - size / 2}px`;
             container.appendChild(bubble);
             
-            // Add click event listener to the bubble
             (function(index) {
                 bubble.addEventListener('click', () => {
                     openMenu(icons[index]);
@@ -73,7 +69,6 @@ async function openMenu(text) {
     const tempContainer = document.createElement('div');
     tempContainer.innerHTML = templateText;
     const template = tempContainer.querySelector('template').content;
-    // Clone the template content
     const menuClone = document.importNode(template, true);
     document.addEventListener('keydown', function(event) {
         if (event.key === 'Escape') {
@@ -88,5 +83,4 @@ function closeMenu() {
     if (menu) menu.remove();
 }
 
-// Initialize bubbles on page load
 document.addEventListener('DOMContentLoaded', createBubbles);
