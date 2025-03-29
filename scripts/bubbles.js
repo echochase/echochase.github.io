@@ -1,8 +1,8 @@
 // Configuration
 const bubbleCount = 8;
 const icons = ['python', 'java', 'js', 'c', 'html-css', 'hacker', 'sql', 'react'];
-const minSize = (window.innerWidth + window.innerHeight) / 15; // Minimum bubble size
-const maxSize = (window.innerWidth + window.innerHeight) / 8; // Maximum bubble size
+const minSize = (window.innerWidth + window.innerHeight) / 12; // Minimum bubble size
+const maxSize = (window.innerWidth + window.innerHeight) / 7; // Maximum bubble size
 const spacingBuffer = 1; // Minimum space between bubbles
 
 function getRandom(min, max) {
